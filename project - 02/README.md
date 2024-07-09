@@ -39,11 +39,11 @@ When the script is executed, three different windows will open with the followin
 
 ### Example Outputs
 
-#### Original Image
-![Original Image](img/borg.jpg)
+## Original Image
+![Original Image](img/borg.png)
 
 #### Blurred Image
-![Blurred Image](img/blur.jpg)
+![Blurred Image](img/blur.png)
 
 #### Edges
-![Edges](img/bmask.jpg)
+![Edges](img/bmask.png)
