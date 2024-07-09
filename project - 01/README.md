@@ -16,17 +16,18 @@ To run this script, you need the following:
 To install the required libraries, use:
 
 ```
-    pip install opencv-python numpy
-```
+pip install opencv-python numpy
+ ```
 
 ## Execution
 
 1. Save the code in a Python file (e.g., `blue_detection.py`).
 2. Place the image file (e.g., `test_image.jpg`) in the same directory or update the path in the script accordingly.
 3. Run the following command in the terminal or command prompt:
-    ```
-    python3 blue_detection.py
-    ```
+
+```
+python3 blue_detection.py
+```
 
 ## Output
 
