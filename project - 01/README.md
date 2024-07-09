@@ -37,6 +37,8 @@ When the script is executed, three different windows will open with the followin
 - **Mask**: A mask image where blue-colored regions are white (255) and other regions are black (0)
 - **Detected Blue Color**: The result image showing only the blue-colored regions
 
+The program can be exited by pressing the any key.
+
 ### Example Outputs
 
 #### Original Image
