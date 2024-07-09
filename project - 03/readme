@@ -1,0 +1,34 @@
+# Yüz Tanıma ile Yüz Tespiti
+
+## Bilgi
+
+Bu Python kodu, OpenCV kütüphanesini kullanarak bir görüntüde yüz tespiti yapar. Kod, önceden eğitilmiş bir Haar Cascade sınıflandırıcısı kullanarak görüntüdeki yüzleri tespit eder ve tespit edilen yüzlerin etrafına dikdörtgen çizer.
+
+## Gereksinimler
+
+Bu kodu çalıştırmak için aşağıdaki gereksinimlere ihtiyaç vardır:
+- Python 3
+- OpenCV (`cv2`) kütüphanesi
+- Yüz tespiti yapılacak bir görüntü dosyası (`test_image_3.jpg`)
+
+Gerekli kütüphaneleri yüklemek için:
+```bash
+pip install opencv-python
+
+## Çalıştırma
+
+1. Kodu içeren dosyayı bir Python dosyasına (örneğin `face_detection.py`) kaydedin.
+2. Yüz tespiti yapılacak görüntüyü (örneğin `test_image_3.jpg`) aynı dizine yerleştirin veya kodda belirtilen yolu uygun şekilde güncelleyin.
+3. Terminal veya komut satırında aşağıdaki komutu çalıştırın:
+    ```bash
+    python face_detection.py
+    ```
+
+## Çıktı
+
+Kod çalıştırıldığında, yüzlerin etrafına dikdörtgen çizilmiş şekilde görüntüyü içeren bir pencere açılacaktır.
+
+### Örnek Çıktılar
+
+#### Yüz Tespit Edilmiş Görüntü
+![Yüz Tespit Edilmiş Görüntü](img1.jpg)
