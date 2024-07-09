@@ -37,6 +37,8 @@ When the script is executed, three different windows will open with the followin
 - **Blurred Image**: The image after applying Gaussian blur
 - **Edges**: The result image showing edges detected using the Canny edge detector
 
+The program can be exited by pressing the any key.
+
 ### Example Outputs
 
 #### Original Image
