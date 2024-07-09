@@ -26,7 +26,7 @@ pip install opencv-python numpy
 3. Run the following command in the terminal or command prompt:
 
 ```
-python3 blue_detection.py
+python3 color_detection.py
 ```
 
 ## Output
