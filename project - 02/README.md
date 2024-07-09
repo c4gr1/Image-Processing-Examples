@@ -24,9 +24,11 @@ pip install opencv-python numpy
 Save the code in a Python file (e.g., `edge_detection.py`).
 Place the image file (e.g., `test_image_2.jpg`) in the same directory or update the path in the script accordingly.
 Run the following command in the terminal or command prompt:
+
 ```
 python3 edge_detection.py
 ```
+
 ## Output
 
 When the script is executed, three different windows will open with the following outputs:
