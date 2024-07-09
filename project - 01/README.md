@@ -14,7 +14,9 @@ To run this script, you need the following:
 - An image file to detect blue color (`test_image.jpg`)
 
 To install the required libraries, use:
-
+    ```
+    pip install opencv-python numpy
+    ```
 
 ## Execution
 
