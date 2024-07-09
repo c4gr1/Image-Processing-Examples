@@ -39,7 +39,7 @@ When the script is executed, three different windows will open with the followin
 
 ### Example Outputs
 
-## Original Image
+#### Original Image
 ![Original Image](img/borg.png)
 
 #### Blurred Image
