@@ -37,10 +37,10 @@ When the script is executed, three different windows will open with the followin
 ### Example Outputs
 
 #### Original Image
-![Original Image]((img/img1.jpg)
+![Original Image]((img/img1.png)
 
 #### Mask
-![Mask](img/img2.jpg)
+![Mask](img/img2.png)
 
 #### Detected Blue Color
-![Detected Blue Color](img/img3.jpg)
+![Detected Blue Color](img/img3.png)
