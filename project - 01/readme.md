@@ -37,7 +37,7 @@ When the script is executed, three different windows will open with the followin
 ### Example Outputs
 
 #### Original Image
-![Original Image]((img/img1.png)
+![Original Image](img/img1.png)
 
 #### Mask
 ![Mask](img/img2.png)
