@@ -16,7 +16,7 @@ To run this script, you need the following:
 To install the required libraries, use:
 
 ```
-pip install opencv-python numpy
+    pip install opencv-python numpy
 ```
 
 ## Execution
