@@ -29,6 +29,7 @@ python face_detection.py
 ## Output
 
 When the script is executed, a window will open displaying the image with rectangles drawn around the detected faces.
+The program can be exited by pressing the any key.
 
 ### Example Outputs
 
