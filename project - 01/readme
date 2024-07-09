@@ -1,47 +1,46 @@
-# Mavi Renk Tespiti ve Maskeleme
+# Blue Color Detection and Masking
 
-## Bilgi
+## Information
 
-Bu Python kodu, bir görüntüdeki mavi renkli bölgeleri tespit etmek ve bu bölgeleri maskelemek için OpenCV kütüphanesini kullanır. Görüntüyü yükler, HSV (Hue, Saturation, Value) renk uzayına dönüştürür ve belirli bir mavi renk aralığını tanımlayarak bu aralıktaki pikselleri tespit eder. Tespit edilen mavi pikselleri maskeleyerek orijinal görüntü üzerinde gösterir.
+This Python script uses the OpenCV library to detect blue-colored regions in an image and mask those regions. The script loads an image, converts it to the HSV (Hue, Saturation, Value) color space, and defines a specific blue color range to detect pixels within that range. The detected blue pixels are then masked and displayed on the original image.
 
-## Gereksinimler
+## Requirements
 
-Bu kodu çalıştırmak için aşağıdaki gereksinimlere ihtiyaç vardır:
+To run this script, you need the following:
+
 - Python 3
-- OpenCV (`cv2`) kütüphanesi
-- NumPy (`numpy`) kütüphanesi
-- Mavi renk tespiti yapılacak bir görüntü dosyası (`test_image.jpg`)
+- OpenCV (`cv2`) library
+- NumPy (`numpy`) library
+- An image file to detect blue color (test_image.jpg)
 
-Gerekli kütüphaneleri yüklemek için:
-```bash
+To install the required libraries, use:
+
+```
 pip install opencv-python numpy
 
+## Execution
 
-
-## Çalıştırma
-
-1. Kodu içeren dosyayı bir Python dosyasına (örneğin `blue_detection.py`) kaydedin.
-2. Mavi renk tespiti yapılacak görüntüyü (örneğin `test_image.jpg`) aynı dizine yerleştirin veya kodda belirtilen yolu uygun şekilde güncelleyin.
-3. Terminal veya komut satırında aşağıdaki komutu çalıştırın:
-    ```bash
+1. Save the code in a Python file (e.g., blue_detection.py).
+2. Place the image file (e.g., test_image.jpg) in the same directory or update the path in the script accordingly.
+3. Run the following command in the terminal or command prompt:
+    ```
     python3 blue_detection.py
     ```
+## Output
 
-## Çıktı
+When the script is executed, three different windows will open with the following outputs:
 
-Kod çalıştırıldığında, aşağıdaki çıktıları içeren üç farklı pencere açılacaktır:
+- **Original Image**: The original image
+- **Mask**:  A mask image where blue-colored regions are white (255) and other regions are black (0)
+- **Detected Blue Color**:  The result image showing only the blue-colored regions
 
-- **Original Image**: Orijinal görüntü
-- **Mask**: Mavi renkli bölgelerin beyaz (255), diğer bölgelerin siyah (0) olduğu maske görüntüsü
-- **Detected Blue Color**: Sadece mavi renkli bölgelerin gösterildiği sonuç görüntüsü
+### Example Outputs
 
-### Örnek Çıktılar
+#### Original Image
+![Original Image]((img/img1.jpg)
 
-#### Orijinal Görüntü
-![Orijinal Görüntü](img1.jpg)
+#### Mask
+![Mask](img/img2.jpg)
 
-#### Maske
-![Maske](img2.jpg)
-
-#### Tespit Edilen Mavi Renk
-![Tespit Edilen Mavi Renk](img3.jpg)
+#### Detected Blue Color
+![Detected Blue Color](img/img3.jpg)
